@@ -40,9 +40,7 @@
 					id="username" name="username" required> <br /> <label
 					for="password">Password</label> <br /> <input type="password"
 					id="password" name="password" required> <br /> <input
-					type="hidden" name="handler" value="login" /> <input type="hidden"
-					name="lastlogon"
-					value="<%out.println(System.currentTimeMillis());%>" />
+					type="hidden" name="handler" value="login" /> 
 				<button type="submit" class="submit">Sign In</button>
 			</form>
 			<br />
